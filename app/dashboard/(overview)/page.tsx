@@ -9,6 +9,11 @@ import {
 } from "@/app/ui/skeletons";
 import {lusitana} from '@/app/ui/fonts';
 import {Suspense} from 'react';
+import { Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Home',
+};
 
 export default async function Page() {
     return (
